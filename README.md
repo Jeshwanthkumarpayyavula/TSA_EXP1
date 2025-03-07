@@ -22,6 +22,14 @@ df1=df.head(100)
 df1
 ```
 ![image](https://github.com/user-attachments/assets/6cbbfb9b-fa6c-4345-a5e1-d128b7594e46)
+```p
+df.info()
+```
+![image](https://github.com/user-attachments/assets/39591344-f183-4586-aba4-b22c6a076086)
+```p
+df.describe()
+```
+![image](https://github.com/user-attachments/assets/58e0c1c7-aae7-4615-a9df-a266664f8f7d)
 
 ```p
 x=df1['yr_built']
