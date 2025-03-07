@@ -19,7 +19,11 @@ import matplotlib.pyplot as plt
 df=pd.read_csv('data.csv')
 df.shape
 df1=df.head(100)
+df1
+```
+![image](https://github.com/user-attachments/assets/6cbbfb9b-fa6c-4345-a5e1-d128b7594e46)
 
+```p
 x=df1['yr_built']
 y=df1['price']
 
